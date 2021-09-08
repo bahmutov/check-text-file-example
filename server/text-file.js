@@ -8,6 +8,7 @@ const text = fs.readFileSync(filename, 'utf8')
 
 module.exports = async function (req, res) {
   try {
+    res.setHeader('Content-Type', 'text/plain')
     micro.send(res, 200, text)
   } catch (e) {
     console.error(e)

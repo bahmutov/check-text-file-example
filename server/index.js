@@ -7,5 +7,5 @@ const dispatch = require('micro-route/dispatch')
 const textFile = require('./text-file')
 
 module.exports = dispatch()
-  .dispatch('/receive', 'POST', receive)
+  .dispatch('/text-file', 'GET', textFile)
   .otherwise(greeting)
