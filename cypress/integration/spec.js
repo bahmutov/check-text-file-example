@@ -17,11 +17,22 @@ it('receives the right text file', () => {
     })
 })
 
-it.only('visits the text file', () => {
+it('visits the text file', () => {
   cy.request('/text-file')
     .its('body')
     .then((text) => {
       cy.document().invoke('write', '<pre>' + text + '</pre>')
     })
   cy.contains('This is a file')
+})
+
+it.only('visits the Markdown file', () => {
+  cy.request('/markdown-file')
+    .its('body')
+    .then((text) => {
+      cy.document().invoke('write', '<pre>' + text + '</pre>')
+    })
+  cy.contains('- one')
+  cy.contains('- two')
+  cy.contains('- three')
 })
