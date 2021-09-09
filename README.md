@@ -1,5 +1,7 @@
 # check-text-file-example
 
+Read the blog post [Test Plain Or Markdown File Using Cypress](https://glebbahmutov.com/blog/text-plain-or-markdown-file/)
+
 ## Install
 
 ```shell
@@ -37,3 +39,11 @@ A plain text file
 * Connection #0 to host localhost left intact
 * Closing connection 0
 ```
+
+## Start Cypress
+
+```shell
+$ npx cypress open
+```
+
+Find the tests in the [cypress/integration/spec.js](./cypress/integration/spec.js) file.
