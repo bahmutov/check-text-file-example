@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "micro-dev -p 8100 --watch server ./server"
+    "start": "micro-dev -p 8100 --watch server ./server",
+    "dev": "start-test 8100 cy:open",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
