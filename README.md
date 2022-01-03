@@ -2,7 +2,7 @@
 
 > Check a text Markdown file using Cypress
 
-Read the blog post [Test Plain Or Markdown File Using Cypress](https://glebbahmutov.com/blog/text-plain-or-markdown-file/)
+Read the blog posts [Test Plain Or Markdown File Using Cypress](https://glebbahmutov.com/blog/text-plain-or-markdown-file/) and [Cypress JSON Test Results](https://glebbahmutov.com/blog/json-test-results/).
 
 ## Install
 
