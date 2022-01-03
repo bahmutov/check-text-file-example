@@ -1,8 +1,9 @@
 {
   "name": "check-text-file-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Check a text file using Cypress",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "micro-dev -p 8100 --watch server ./server",
     "dev": "start-test 8100 cy:open",

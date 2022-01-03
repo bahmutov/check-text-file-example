@@ -1,4 +1,6 @@
-# check-text-file-example
+# check-text-file-example ![cypress version](https://img.shields.io/badge/cypress-8.3.1-brightgreen)
+
+> Check a text Markdown file using Cypress
 
 Read the blog post [Test Plain Or Markdown File Using Cypress](https://glebbahmutov.com/blog/text-plain-or-markdown-file/)
 
