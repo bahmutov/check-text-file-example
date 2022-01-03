@@ -1,4 +1,4 @@
-# check-text-file-example ![cypress version](https://img.shields.io/badge/cypress-8.3.1-brightgreen)
+# check-text-file-example ![cypress version](https://img.shields.io/badge/cypress-8.3.1-brightgreen) [![ci](https://github.com/bahmutov/check-text-file-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/check-text-file-example/actions/workflows/ci.yml)
 
 > Check a text Markdown file using Cypress
 
