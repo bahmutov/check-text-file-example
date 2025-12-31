@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/bahmutov/check-text-file-example#readme",
   "dependencies": {
-    "micro": "9.3.4",
+    "micro": "9.4.1",
     "micro-dev": "3.0.0",
     "micro-route": "2.5.0"
   },
