@@ -30,6 +30,6 @@
     "cypress-json-results": "^1.0.0",
     "nano-markdown": "1.2.1",
     "prettier": "2.3.2",
-    "start-server-and-test": "1.14.0"
+    "start-server-and-test": "1.15.4"
   }
 }
